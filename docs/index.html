@@ -494,21 +494,30 @@
 
     <script>
         window.$docsify = {
-            el: '#api',
-            name: "Fairlay's API",
-            logo: '../static/utils/svg/logo.svg',
-
-            notFoundPage: '/404.md',
+            loadNavbar: false,
+            changelog : 'CHANGELOG.md',
+            loadSidebar: true,
+            subMaxLevel: 3,
             auto2top: true,
+            homepage: '1.1.ReadStudy.md',
+            coverpage: true,
+            logo: '',
+            name: '回到首页',
+            nameLink: 'https://jikeresource.github.io/jikeres',
+            noEmoji: true,
+            mergeNavbar: false,
+            notFoundPage: true,
+            topMargin: 90,
+            
+            el: '#api',
+
             executeScript: true,
             // basePath: 'https://raw.githubusercontent.com/Fairlay/FairlayPublicAPI/',
             // homepage: 'https://raw.githubusercontent.com/docsifyjs/docsify/master/README.md',
             relativePath: false,
-            loadSidebar: true, //'/'+ location.host+ '/api/_sidebar.md',
-            mergeNavbar: true,
-            auto2top: true,
+
             maxLevel: 6,
-            subMaxLevel: 6,
+
             themeable: {
                 readyTransition: true,
                 // responsiveTables: false
