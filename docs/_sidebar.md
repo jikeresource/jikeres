@@ -8,5 +8,8 @@
 
   - [一、计算机类](2.1.ComputerBook.md)
 
+- 考试资源
+
+  - [一、考试资源](3.1.examination.md)
 
 
